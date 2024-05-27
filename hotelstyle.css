@@ -80,8 +80,11 @@ padding: 2em;
     background-color: var(--green);
     color: var(--white);
     border: 1px solid var(--green);
-    text-align: center;    
+    text-align: center;  
+    transition: all 0.5s;
+  cursor: pointer;  
 }
+
 .menu{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
@@ -90,6 +93,7 @@ padding: 2em;
     padding:2em;
     gap: 5em;
 }
+
 #menuheading,#locheading{
     background: linear-gradient(to right ,rgb(100,100,100),rgb(10, 9, 9));
     font-size: 3em;
